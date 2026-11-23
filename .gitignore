@@ -1,0 +1,37 @@
+# Rust build output
+/target/
+**/target/
+
+# Cargo local state
+/.cargo/
+
+# IDE and editor state
+.vscode/
+.idea/
+*.code-workspace
+
+# Windows OS files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS and Linux OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+*~
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Rust-generated build artifacts
+*.pdb

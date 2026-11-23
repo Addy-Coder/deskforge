@@ -1,0 +1,3 @@
+[workspace]
+members = ["apps/daypilot", "apps/toolkit"]
+resolver = "2"

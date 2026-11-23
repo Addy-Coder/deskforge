@@ -1,0 +1,20 @@
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub enum DayPilotEvent {
+    MoveSelectionUp,
+    MoveSelectionDown,
+    ToggleCompletion,
+    StartAddingTask,
+    StartEditingTask,
+    StartDeletingTask,
+    ConfirmDelete,
+    CancelDelete,
+    SaveTask,
+    CancelForm,
+    MoveFormFieldNext,
+    MoveFormFieldPrevious,
+    ChangePriorityNext,
+    ChangePriorityPrevious,
+    InsertText(char),
+    DeletePreviousCharacter,
+    GoBack,
+}
